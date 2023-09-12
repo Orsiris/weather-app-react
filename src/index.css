@@ -1,0 +1,86 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+/* html{
+ 
+  background-image: url('../public/images/Sunset.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
+
+body {
+  margin: 0;
+  min-height: 100vh;
+ overflow: hidden;
+ 
+}
+
+h1 {
+ 
+  font-family: 'Poppins', sans-serif;
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+}
+
+span{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* .parameter-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.parameter-label{
+  text-align: left;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: 'DM Sans', sans-serif; 
+}
+
+.parameter-value{
+  text-align: right;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: 'DM Sans', sans-serif; 
+} */
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
