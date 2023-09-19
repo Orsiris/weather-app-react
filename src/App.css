@@ -3,18 +3,6 @@
   /* color-scheme: dark light; */
 }
 
-
-.container{
-min-height: 95vh;
-  
-  background-color: #0a131f   ;
- margin-left: auto;
- margin-right: auto;
- margin-top: 1rem;
-
- 
-}
-
 .currentWeather{
   background-color: #202a3a;
 }

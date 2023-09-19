@@ -40,6 +40,7 @@ const Search = ({ onSearchChange }) => {
             onChange={handleOnChange}
             // className='text-start'
             loadOptions={loadOptions}
+            loadOptionsOnMenuOpen = {false}
         />
     );
 }
